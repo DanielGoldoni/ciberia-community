@@ -1,0 +1,16 @@
+{
+  "name": "ciberia-community",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Triagem de vulnerabilidades com evidências, n8n e ferramentas offline em Node.js.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build:workflow": "node scripts/build-ciberia-v2.mjs",
+    "test": "node --test",
+    "check:distribution": "node scripts/check-distribution.mjs",
+    "check": "npm run build:workflow && npm test && npm run check:distribution"
+  },
+  "repository": { "type": "git", "url": "https://github.com/DanielGoldoni/ciberia-community.git" }
+}

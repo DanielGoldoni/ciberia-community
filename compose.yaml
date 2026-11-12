@@ -1,0 +1,22 @@
+# Ambiente LOCAL opcional. Não inicia nem ativa o workflow automaticamente.
+services:
+  n8n:
+    image: n8nio/n8n:2.47.5
+    ports:
+      - "127.0.0.1:5679:5678"
+    environment:
+      TZ: UTC
+      GENERIC_TIMEZONE: UTC
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_VERSION_NOTIFICATIONS_ENABLED: "false"
+      N8N_TEMPLATES_ENABLED: "false"
+      EXECUTIONS_DATA_SAVE_ON_ERROR: none
+      EXECUTIONS_DATA_SAVE_ON_SUCCESS: none
+      EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS: "false"
+    volumes:
+      - ciberia_n8n_data:/home/node/.n8n
+      - ./workflows:/imports:ro
+
+volumes:
+  ciberia_n8n_data:

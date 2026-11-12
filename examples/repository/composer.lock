@@ -1,0 +1,18 @@
+{
+  "packages": [
+    {
+      "name": "demo/library",
+      "version": "2.0.0"
+    }
+  ],
+  "packages-dev": [
+    {
+      "name": "demo/test-tool",
+      "version": "v1.0.0"
+    },
+    {
+      "name": "demo/unreleased",
+      "version": "dev-main"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-01-01T00:00:00.000Z",
+  "config": {
+    "includeDev": true
+  },
+  "queryCount": 3,
+  "assets": [
+    {
+      "id": "demo-app",
+      "enabled": true,
+      "project": "Demo Application",
+      "environment": "laboratory",
+      "evidenceType": "repository",
+      "observedAt": "2026-01-01T00:00:00.000Z",
+      "evidence": "SYNTHETIC FIXTURE: not a real advisory, dependency or environment.",
+      "packages": [
+        {
+          "ecosystem": "npm",
+          "name": "demo-library",
+          "version": "1.0.0",
+          "dev": false
+        },
+        {
+          "ecosystem": "npm",
+          "name": "demo-library",
+          "version": "1.1.0",
+          "dev": false
+        },
+        {
+          "ecosystem": "Packagist",
+          "name": "demo/library",
+          "version": "2.0.0",
+          "dev": false
+        }
+      ]
+    }
+  ],
+  "findings": [],
+  "details": [
+    {
+      "id": "DEMO-PACKAGE-001",
+      "summary": "Fictional advisory used only to demonstrate the planner",
+      "modified": "2026-01-01T00:00:00.000Z",
+      "database_specific": {
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-20"
+        ]
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://example.invalid/advisories/DEMO-PACKAGE-001"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "demo-library",
+            "ecosystem": "npm"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.0.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO-PACKAGE-002",
+      "summary": "Fictional advisory used only to demonstrate the planner",
+      "modified": "2026-01-01T00:00:00.000Z",
+      "database_specific": {
+        "severity": "CRITICAL",
+        "cwe_ids": [
+          "CWE-20"
+        ]
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://example.invalid/advisories/DEMO-PACKAGE-002"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "demo-library",
+            "ecosystem": "npm"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "1.1.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO-PACKAGE-003",
+      "summary": "Fictional advisory used only to demonstrate the planner",
+      "modified": "2026-01-01T00:00:00.000Z",
+      "database_specific": {
+        "severity": "HIGH",
+        "cwe_ids": [
+          "CWE-20"
+        ]
+      },
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://example.invalid/advisories/DEMO-PACKAGE-003"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "name": "demo/library",
+            "ecosystem": "Packagist"
+          },
+          "ranges": [
+            {
+              "type": "SEMVER",
+              "events": [
+                {
+                  "introduced": "0"
+                },
+                {
+                  "fixed": "2.0.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "osvMatches": [
+    {
+      "id": "DEMO-PACKAGE-001",
+      "targets": [
+        {
+          "assetId": "demo-app",
+          "package": {
+            "ecosystem": "npm",
+            "name": "demo-library",
+            "version": "1.0.0",
+            "dev": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEMO-PACKAGE-002",
+      "targets": [
+        {
+          "assetId": "demo-app",
+          "package": {
+            "ecosystem": "npm",
+            "name": "demo-library",
+            "version": "1.0.0",
+            "dev": false
+          }
+        },
+        {
+          "assetId": "demo-app",
+          "package": {
+            "ecosystem": "npm",
+            "name": "demo-library",
+            "version": "1.1.0",
+            "dev": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEMO-PACKAGE-003",
+      "targets": [
+        {
+          "assetId": "demo-app",
+          "package": {
+            "ecosystem": "Packagist",
+            "name": "demo/library",
+            "version": "2.0.0",
+            "dev": false
+          }
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

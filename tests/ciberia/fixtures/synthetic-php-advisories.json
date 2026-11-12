@@ -1,0 +1,90 @@
+[
+  {
+    "ghsa_id": "DEMO-PHP-001",
+    "cve_id": null,
+    "summary": "DEMONSTRACAO: advisory sintetico 1; nao representa uma vulnerabilidade real",
+    "severity": "critical",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.2.1",
+        "patched_versions": "8.2.1"
+      },
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.3.1",
+        "patched_versions": "8.3.1"
+      },
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.4.1",
+        "patched_versions": "8.4.1"
+      },
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.5.1",
+        "patched_versions": "8.5.1"
+      }
+    ],
+    "html_url": "https://example.invalid/advisories/DEMO-PHP-001",
+    "published_at": "2020-01-01T00:00:00Z",
+    "updated_at": "2020-01-01T00:00:00Z",
+    "withdrawn_at": null
+  },
+  {
+    "ghsa_id": "DEMO-PHP-002",
+    "cve_id": null,
+    "summary": "DEMONSTRACAO: advisory sintetico 2; nao representa uma vulnerabilidade real",
+    "severity": "high",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.2.1",
+        "patched_versions": "8.2.1"
+      },
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.3.1",
+        "patched_versions": "8.3.1"
+      },
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.4.1",
+        "patched_versions": "8.4.1"
+      },
+      {
+        "package": {
+          "ecosystem": "other",
+          "name": "php-src"
+        },
+        "vulnerable_version_range": "< 8.5.1",
+        "patched_versions": "8.5.1"
+      }
+    ],
+    "html_url": "https://example.invalid/advisories/DEMO-PHP-002",
+    "published_at": "2020-01-01T00:00:00Z",
+    "updated_at": "2020-01-01T00:00:00Z",
+    "withdrawn_at": null
+  }
+]

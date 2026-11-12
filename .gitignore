@@ -1,0 +1,13 @@
+# Configuração, inventários e relatórios de cada instalação
+local/
+output/
+reports/
+data/
+n8n-data/
+.n8n/
+.env
+.env.*
+*.log
+node_modules/
+coverage/
+.DS_Store
